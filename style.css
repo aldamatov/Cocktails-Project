@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(138, 12, 12);
+    font-family: 'Macondo', cursive;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.container{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.buttons-div{
+    color: rgb(255, 255, 255);
+}
+#search{
+    width: 50%;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    
+}
+
+.cocktail-item{
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.cocktail-item:hover{
+    box-shadow: 5px 5px 10px 10px #000000;
+}
+.cocktail-item img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.buttons-div{
+    padding: 7px;
+    margin: 10px;
+}
+.buttons-div a {
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    margin: 10px;
+    padding: 5px 5px 0 5px;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
